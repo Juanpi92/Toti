@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Operacoes basicas</title>
+  </head>
+  <body>
+    <form id="myform">
+      <label for="number1">Numero 1:</label>
+      <input type="number" required id="number1" value="1" />
+      <br />
+      <br />
+      <label for="number2">Numero 2:</label>
+      <input type="number" required id="number2" value="1" />
+      <br />
+      <br />
+      <label for="operacao">Operação</label>
+      <select id="operacao">
+        <option value="+">Suma</option>
+        <option value="-">Resta</option>
+        <option value="*">Multiplicação</option>
+        <option value="/">Divisão</option>
+      </select>
+      <br />
+      <br />
+      <input type="submit" value="Ejecutar" />
+    </form>
+    <br />
+    <br />
+    <h1 id="resultado"></h1>
+    <script src="index.js"></script>
+  </body>
+</html>
